@@ -67,6 +67,42 @@ export const workExp = [
   },
 ];
 
+export const projects = [
+  {
+    place: "Data Structures",
+    link: "https://schar.netlify.app/",
+    image: "./showCase1.png",
+    name: "Char",
+    tech: "ReactJS ExpressJS MongoDB NodeJS HTML CSS JavaScript",
+    // tenure: "Aug 2014 - Sep 2016",
+    role: "A responsive women's fashion eCommerce website, including features such as product listing, search functionality, and a user-friendly shopping cart, along with admin features for inventory management, product categorization, and order fulfillment, resulting in improved website performance and user experience. ",
+    // detail:
+    //   "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+  },
+  // {
+  //   place: "",
+  //   link: "",
+  //   image: "",
+  //   name: "",
+  //   tech: "",
+  //   // tenure: "Aug 2014 - Sep 2016",
+  //   role: "",
+  //   // detail:
+  //   //   "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+  // },
+  {
+    place: "Data Structures",
+    link: "https://schar.netlify.app/",
+    image: "./showCase1.png",
+    name: "Char",
+    tech: "ReactJS ExpressJS MongoDB NodeJS HTML CSS JavaScript",
+    // tenure: "Aug 2014 - Sep 2016",
+    role: "A responsive women's fashion eCommerce website, including features such as product listing, search functionality, and a user-friendly shopping cart, along with admin features for inventory management, product categorization, and order fulfillment, resulting in improved website performance and user experience. ",
+    // detail:
+    //   "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+  },
+];
+
 export const comments = [
   {
     name: "B.Tech - CCE",

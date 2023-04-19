@@ -7,7 +7,7 @@ const Experties = () => {
   return (
     <section className={css.wrapper}>
         <a className="anchor" id="experties"></a>
-        <motion.div
+        <div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
@@ -34,7 +34,7 @@ const Experties = () => {
 
 
             {/* right */}
-            <motion.div
+            <div
             variants={textVariant(0.1)}
             className={css.rightSide}>
 
@@ -52,8 +52,8 @@ const Experties = () => {
                         <span className='secondaryText'>Happy Clients</span> */}
                     </div>
                 </div>
-            </motion.div>
-        </motion.div>
+            </div>
+        </div>
     </section>
   )
 }

@@ -4,7 +4,7 @@ import css from "./Footer.module.scss";
 import {motion} from 'framer-motion'
 const Footer = () => {
   return (
-    <motion.section
+    <section
     variants={staggerChildren}
     initial="hidden"
     whileInView="show"
@@ -12,7 +12,7 @@ const Footer = () => {
     className={`paddings ${css.wrapper}`}>
       
       
-      <motion.div
+      <div
       variants={footerVariants}
       className={`innerWidth yPaddings flexCenter ${css.container}`}>
         <div className={css.left}>
@@ -39,8 +39,8 @@ const Footer = () => {
           <li><a href="#portfolio">Projects</a></li>
           </ul>
         </div>
-      </motion.div>
-    </motion.section>
+      </div>
+    </section>
   );
 };
 

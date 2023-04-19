@@ -18,7 +18,7 @@ const Header = () => {
   });
 
   return (
-    <motion.div
+    <div
       variants={headerVariants}
       initial="hidden"
       whileInView="show"
@@ -51,7 +51,7 @@ const Header = () => {
           <BiMenuAltRight size={30} />
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

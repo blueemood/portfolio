@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 import { footerVariants, staggerChildren, textVariant, textVariant2 } from "../../utils/motion";
 const People = () => {
   return (
-    <motion.section
+    <section
     variants={staggerChildren}
     initial="hidden"
     whileInView="show"
@@ -15,7 +15,7 @@ const People = () => {
 
       <a className="anchor" id="people"></a>
 
-      <motion.div
+      <div
       variants={footerVariants}
       className={`yPaddings innerWidth ${css.container}`}>
 
@@ -50,9 +50,9 @@ const People = () => {
         </div>
 
 
-      </motion.div>
+      </div>
 
-    </motion.section>
+    </section>
   );
 };
 

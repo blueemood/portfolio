@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 import { draw, fadeIn, slideIn, staggerChildren, textVariant2, zoomIn } from "../../utils/motion";
 const Work = () => {
   return (
-    <motion.section 
+    <section 
     variants={staggerChildren}
     initial="hidden"
     whileInView="show"
@@ -42,7 +42,7 @@ const Work = () => {
 
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 
