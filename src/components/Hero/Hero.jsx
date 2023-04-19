@@ -16,7 +16,7 @@ const Hero = () => {
       >
         <div className={css.upperElements}>
           <span className="primaryText" variants={fadeIn("right", "tween", 0.2, 1)}>
-            Hey There,
+            Hello There,
             <br />
             I'm Subodh.
           </span>
